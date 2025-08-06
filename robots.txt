@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /search/
+Disallow: /*.pdf$
+Disallow: /*?*
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Google AdsBot
+User-agent: AdsBot-Google
+Allow: /
+
+# Sitemaps
+Sitemap: https://tonaboatecnologia.github.io/sitemap.xml
+Sitemap: https://tonaboatecnologia.github.io/sitemap-blog.xml
+
+# Crawl-delay - recomendado para servidores compartilhados
+Crawl-delay: 5
